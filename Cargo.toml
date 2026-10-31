@@ -81,3 +81,7 @@ codegen-units = 1
 panic = "abort"
 strip = true
 
+
+# Fork only, not for upstream: the Produce version setting until a core release has it.
+[patch.crates-io]
+kafka-backup-core = { git = "https://github.com/beatriq/kafka-backup", rev = "82c8a40c95770c9a7fe3afe5e140ef74bda31902" }

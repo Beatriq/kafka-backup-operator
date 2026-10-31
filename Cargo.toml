@@ -84,4 +84,4 @@ strip = true
 
 # Fork only, not for upstream: the Produce version setting until a core release has it.
 [patch.crates-io]
-kafka-backup-core = { git = "https://github.com/beatriq/kafka-backup", rev = "373482aeb5af3713eb58b4cce82e6b1abf1c7a1e" }
+kafka-backup-core = { git = "https://github.com/beatriq/kafka-backup", rev = "7e5de60aafce89af421303b3ef158d6a542d31bc" }
